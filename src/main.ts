@@ -149,7 +149,7 @@ function setupEventListeners(data: Dessert[]): void {
       const carbonNeutralImage = document.createElement(
         "img"
       ) as HTMLImageElement;
-      carbonNeutralImage.src = "/assets/images/icon-carbon-neutral.svg";
+      carbonNeutralImage.src = "assets/images/icon-carbon-neutral.svg";
       carbonNeutralImage.alt = "carbon-neutral";
       const carbonNeutralText = document.createElement(
         "p"
@@ -294,7 +294,7 @@ function setupEventListeners(data: Dessert[]): void {
     const btnCart = document.createElement("button");
     btnCart.classList.add("btn-cart");
     const addToCartImage = document.createElement("img");
-    addToCartImage.src = "/assets/images/icon-add-to-cart.svg";
+    addToCartImage.src = "assets/images/icon-add-to-cart.svg";
     addToCartImage.style.width = "20px";
     btnCart.textContent = "Add to Cart";
     btnCart.appendChild(addToCartImage);
@@ -306,7 +306,7 @@ function setupEventListeners(data: Dessert[]): void {
     const decrement = document.createElement("button");
     decrement.classList.add("decrement");
     const decrementImage = document.createElement("img");
-    decrementImage.src = "/assets/images/icon-decrement-quantity.svg";
+    decrementImage.src = "assets/images/icon-decrement-quantity.svg";
     decrementImage.style.width = "10px";
     decrement.appendChild(decrementImage);
     quantityControl.appendChild(decrement);
@@ -318,7 +318,7 @@ function setupEventListeners(data: Dessert[]): void {
     const increment = document.createElement("button");
     increment.classList.add("increment");
     const incrementImage = document.createElement("img");
-    incrementImage.src = "/assets/images/icon-increment-quantity.svg";
+    incrementImage.src = "assets/images/icon-increment-quantity.svg";
     incrementImage.style.width = "10px";
     increment.appendChild(incrementImage);
     quantityControl.appendChild(increment);
