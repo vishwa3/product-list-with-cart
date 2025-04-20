@@ -472,7 +472,7 @@ h2 {
     width: 80vw;
   }
 }
-
+/* This media query is for mobile devices */
 @media screen and (width < 500px) {
   dialog {
     width: 90vw;
